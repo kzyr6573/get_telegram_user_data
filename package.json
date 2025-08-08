@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@telegram-apps/sdk-react": "^3.3.6",
     "@twa-dev/sdk": "^8.0.2",
     "next": "15.4.6",
     "pnpm": "^10.14.0",
