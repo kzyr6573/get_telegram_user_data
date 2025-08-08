@@ -1,6 +1,9 @@
 'use client'
 
-import WebApp from "@twa-dev/sdk";
+let WebApp: any;
+if (typeof window !== "undefined") {
+	WebApp = require("@twa-dev/sdk").default;
+}
 import {useEffect, useState} from "react";
 
 interface UserData {
